@@ -1,14 +1,13 @@
 const help = (pushname, prefix, botName, ownerName) => {
         return `
-┏ *〈 ${botName} 〉*
+┏ *Murazor Bot*
 ╿
-┷┯ *〈 BOT INFO 〉*
+┷┯ *Bot Info*
    ╽
-   ┠≽ *Prefix* : 「  ${prefix}  」
-   ┠≽ *Creator* : ${ownerName}
+   ┠≽ *Creator* : Er Murazor
    ┠≽ *Version* : 0.0.1
    ╿
-┯┷ *〈 ABOUT 〉*
+┯┷ *This ot can do whatever you want in following list*
 ╽
 ┠≽ ${prefix}info
 ┠≽ ${prefix}blocklist
@@ -41,6 +40,6 @@ const help = (pushname, prefix, botName, ownerName) => {
 ╽
 ┠≽ ${prefix}wait
 ╿ *${ownerName},*
-╰╼≽ *Developer © ${botName}*`
+╰╼≽ *Developer © ErMurazor*`
 }
 exports.help = help
